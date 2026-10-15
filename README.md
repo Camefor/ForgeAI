@@ -33,6 +33,9 @@ ForgeAI 是一套面向 AI 协作开发（Vibe Coding）的工程文档骨架。
 cp -r ForgeAI/docs /path/to/your-new-project/docs
 cp ForgeAI/CONTEXT.md /path/to/your-new-project/CONTEXT.md
 
+复制 docs文件夹和CONTEXT.md：
+<img width="620" height="148" alt="image" src="https://github.com/user-attachments/assets/ccfe87b6-df94-47f2-847c-0c1d9ab3885f" />
+
 # 2. 在新项目仓库，让 AI 先读取 docs/INIT-GUIDE.md 并按引导补齐占位符
 ```
 
