@@ -48,6 +48,21 @@ cp ForgeAI/CONTEXT.md /path/to/your-new-project/CONTEXT.md
 3. 实现、测试、文档同步更新。
 4. 收尾按 AGENT-GUIDE 第 6 章执行。
 
+### 4.3 典型示例
+
+下面是一次从 idea 到持续编码的完整实践：
+
+1. 先与 ChatGPT 沟通想法，形成一份[初步设计方案](https://chatgpt.com/share/6ad090a5-2818-83ee-951e-3609f52ed11b)。
+2. 将 ForgeAI 的 `docs/` 和 `CONTEXT.md` 复制到项目根目录，然后只需把设计方案提供给 AI，让 AI 按初始化引导自行填充项目文档。
+
+![向 AI 提供设计方案并开始项目初始化](assets/typical-example/01-provide-design.jpeg)
+
+完成初始化后，就可以让 AI 从创建空白项目开始，按照任务台账逐步编码实现；开发者在过程中负责纠偏、审查和验证，从而持续推进 Vibe Coding。
+
+![AI 完成阶段任务并提示下一项工作](assets/typical-example/02-agent-iteration.jpeg)
+
+![AI 按任务台账继续推进项目](assets/typical-example/03-task-progression.jpeg)
+
 ## 5. 文件清单
 
 | 路径 | 作用 |
