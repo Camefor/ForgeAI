@@ -63,6 +63,10 @@ cp ForgeAI/CONTEXT.md /path/to/your-new-project/CONTEXT.md
 
 ![AI 按任务台账继续推进项目](assets/typical-example/03-task-progression.jpeg)
 
+完整的用于典型示例的项目：https://github.com/Camefor/GitGuard
+
+
+
 ## 5. 文件清单
 
 | 路径 | 作用 |
